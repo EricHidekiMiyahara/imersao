@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapas CS2</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link rel="shotcut icon" href="/icon/globo.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -14,20 +14,9 @@
     <main>
         <section>
         <input type="text" placeholder="Digite o nome de um mapa">
-        <button>Pesquisar</button>
+        <button onclick="pesquisar()">Pesquisar</button>
         </section>
-        <section class="mapas">
-            <h2>Mapas do CS2</h2>
-            <div class="card">
-              <img src="img/mapa1.jpg" alt="Mapa Mirage">
-              <h3>Mirage</h3>
-              <p>Mirage, uma opção favorita entre os jogadores, possui um campo de batalha bem equilibrado e adaptável que acomoda tanto entusiastas casuais como competidores experientes. O layout distinto do mapa e os marcadores estratégicos requerem um sólido domínio da mecânica do jogo, tornando-o uma escolha adorada para quem procura um desafio emocionante.</p>
-            </div>
-            <div class="card">
-              <img src="img/mapa2.jpg" alt="Mapa Vertigo">
-              <h3>Vertigo</h3>
-              <p>Vertigo é uma excelente escolha para jogadores que querem ultrapassar os seus limites. Ele fornece um ambiente único onde eles podem testar e refinar suas habilidades.</p>
-            </div>
+        <section class="mapas" id="mapas">
         </section>
     </main>
     <footer>

@@ -88,6 +88,11 @@ section button:hover {
     color: #222831; /* Cor do texto */
 }
 
+.item-resultado img {
+    display: block;
+    max-width: 30%;
+    max-height: 30%;
+}
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
@@ -112,7 +117,7 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
+    position: relative; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }

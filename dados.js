@@ -6,5 +6,9 @@ let dados = [
     {
     titulo : "Vertigo",
     descricao : "Vertigo é uma excelente escolha para jogadores que querem ultrapassar os seus limites. Ele fornece um ambiente único onde eles podem testar e refinar suas habilidades.", 
-    }
+    },
+    {
+        titulo : "Nuke",
+        descricao : "Vertigo é uma excelente escolha para jogadores que querem ultrapassar os seus limites. Ele fornece um ambiente único onde eles podem testar e refinar suas habilidades.", 
+    },
     ]
