@@ -112,9 +112,19 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: relative; /* Posiciona o rodapé */
+    position:relative; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+}
+
+footer a{
+    text-decoration: none;
+    color: #45474B;
+    padding-right: 1%;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {

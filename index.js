@@ -1,16 +1,37 @@
 function pesquisar() {
     let section = document.getElementById("mapas"); console.log(section);
 
-let resultados = "";
+    let campoPesquisa = document.getElementById("campo-pesquisa").value;
 
-for (let dado of dados) {
-    resultados += `<div class="card">
+    if (!campoPesquisa) {
+        section.innerHTML = "<p>Nada foi encontrado. Você precisa digitar o nome de um mapa.</p>";
+        return
+    }
+
+    campoPesquisa = campoPesquisa.toLowerCase();
+
+    let resultados = "";
+    let titulo = "";
+    let descricao = "";
+    let tags = "";
+
+    for (let dado of dados) {
+        titulo = dado.titulo.toLowerCase()
+        descricao = dado.descricao.toLowerCase()
+        tags = dado.tags.toLowerCase()
+        if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
+            resultados += `<div class="card">
               <h3>${dado.titulo}</h3>
               <img src="${dado.imagem}" alt="${dado.titulo}">
               <p>${dado.descricao}</p>
             </div>`
-}
+        }
+    }
 
-section.innerHTML = resultados;
+    if (!resultados) {
+        resultados = "<p>Nenhum mapa foi encontrado.</p>"
+    }
+
+    section.innerHTML = resultados;
 }
 
