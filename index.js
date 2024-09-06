@@ -6,7 +6,7 @@ let resultados = "";
 for (let dado of dados) {
     resultados += `<div class="card">
               <h3>${dado.titulo}</h3>
-              <img src="img/mirage.jpeg" alt="Mapa Mirage">
+              <img src="${dado.imagem}" alt="${dado.titulo}">
               <p>${dado.descricao}</p>
             </div>`
 }

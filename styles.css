@@ -88,11 +88,6 @@ section button:hover {
     color: #222831; /* Cor do texto */
 }
 
-.item-resultado img {
-    display: block;
-    max-width: 30%;
-    max-height: 30%;
-}
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
