@@ -22,7 +22,6 @@ function pesquisar() {
         if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
             resultados += `<div class="card">
               <h3>${dado.titulo}</h3>
-              <img src="${dado.imagem}" alt="${dado.titulo}">
               <p>${dado.descricao}</p>
             </div>`
         }
