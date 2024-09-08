@@ -14,4 +14,4 @@ let dados = [
         descricao : "A jogabilidade de Nuke representa um desafio, tornando-o uma opção excecional para os jogadores que procuram melhorar as suas capacidades e ser mais espertos que os adversários..", 
         tags: "container" 
     },
-    ]
+    ];
