@@ -11,6 +11,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
+    height: auto; /* Remove o preenchimento total da viewport */
     background-image: url('/img/background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,16 +32,20 @@ section {
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
     margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    color: white;
+    width: 100%; /* Garante que as seções ocupem toda a largura disponível */
+    max-width: 1200px; /* Limita a largura máxima das seções */
 }
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 30rem; /* Largura dos inputs */
+    width: 100%; /* Ajusta a largura para 100% do container pai */
+    max-width: 30rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #45474B; /* Cor do texto */
+    color: #FFFFFF; /* Cor do texto */
     background: #121212;
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
@@ -57,20 +62,31 @@ section button {
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
-/* Adiciona efeito hover ao botão de pesquisa */
+/* Efeito ao passar o cursor sobre o botão */
 section button:hover {
-    background-color: #30475E; /* Muda a cor de fundo ao passar o mouse */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra mais intensa ao passar o cursor */
+}
+
+/* Estilo para os botões com tamanho específico */
+button{
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px; /* Cantos arredondados dos botões */
+    font-size: 16px; /* Tamanho da fonte dentro dos botões */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
+    width: 100%;
+    max-width: 60rem; /* Largura máxima da caixa de resultados */
     height: 46vh; /* Altura máxima da caixa de resultados */
     overflow-y: auto; /* Adiciona rolagem vertical se necessário */
     margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 0.6rem; /* Borda arredondada */
+    color: white;
 }
 
 /* Estiliza cada item de resultado */
@@ -99,7 +115,6 @@ footer {
     background-color: #202222; /* Cor de fundo do rodapé */
     color: #FFFFFF; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     position: relative; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
