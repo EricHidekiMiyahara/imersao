@@ -51,6 +51,11 @@ section input {
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
+section input:hover {
+    background: #9aa2b0;
+    transition: 0.3 ease;
+}
+
 /* Estiliza os botões dentro das seções */
 section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
@@ -102,6 +107,18 @@ button{
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
+}
+
+/* Adiciona uma classe para a seção "Sobre" quando estiver ativa */
+.sobre-ativo {
+    background-color: #333333; /* Cor de fundo desejada para a seção "Sobre" ativa */
+    border-radius: 0.6rem;
+}
+  
+/* Adiciona uma classe para os cards quando houver resultados da pesquisa */
+.card-resultado {
+    background-color: #333333; /* Cor de fundo desejada para os cards */
+    border-radius: 0.6rem;
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */

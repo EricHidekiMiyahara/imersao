@@ -15,11 +15,11 @@
         <section>
             <input type="text" placeholder="Digite o nome de um mapa" id="campo-pesquisa">
             <button onclick="pesquisar()">Pesquisar</button>
-            <button id="botao-home">Sobre</button>
+            <button onclick="voltarHome()"id="botao-home">Sobre</button>
         </section>
         <section class="resultados-pesquisa" id="resultados-pesquisa">
             <!-- Seção "Sobre" com informações sobre o site -->
-            <div id="sobre" class="sobre-container">
+            <div id="sobre" class="sobre-container sobre-ativo">
                 <h2>Sobre</h2>
                 <p>Este site foi criado com o objetivo de fornecer informações resumidas sobre os mapas do CS2. Aqui, você pode pesquisar seus mapas favoritos e conhecer mais sobre eles!</p>
                 <p>Basta realizar a pesquisa pelo nome do mapa que procura. A busca pode ser realizada por
@@ -28,6 +28,8 @@
                 ajustar a página e incluir esses dados.</p>
             </div>
         </section>
+        <div class="card">
+        </div>
     </main>
     <footer>
         <p>2024 - Mapas do CS2. Todos os direitos reservados ao Counter-Strike 2, Valve.</p>
