@@ -11,7 +11,8 @@
  <a href="#about">Sobre</a> • 
  <a href="#funcionamento">Como ela funciona?<a> •
  <a href="#started">Instrução de uso</a> • 
- <a href="#contribute">Contribuição</a>
+ <a href="#contribute">Contribuição</a> •
+ <a href="#links">Links Úteis</a>
 </p>
 
 <p align="center">
@@ -60,7 +61,7 @@ Agradeço a contribuição para o projeto. Se você está corrigindo um bug, adi
 
 1. ** Criar uma nova funcionalidade**
 
-Sempre trabalhe em uma nova funcionalidade para suas alterações. Isso mantém ela limpa e o histórico organizado.
+A adição das respectivas imagens com os cards do mapa é um boa ideia para tornar a busca mais elegante e informativa visualmente.
 
 2. ** Siga os padrões de codificação**
 
@@ -70,7 +71,7 @@ Consistência é fundamental! Aderir aos padrões de codificação e padrões es
 
 Irei rever a sua solicitação de pull. Participe da discussão e faça as alterações solicitadas. Suas contribuições serão mescladas no projeto uma vez aprovada!
 
-<h3>Links Úteis</h3>
+<h3 id="links">Links Úteis</h3>
 
 - [Layout](https://www.youtube.com/watch?v=6gRtjwD2w88&list=PL2Fdisxwzt_f5C7Mv0kg1EAHhy2VJLf1c)
 - [Layout como referência](https://jeferson-paz.github.io/projeto_final_alura_gemini/)
