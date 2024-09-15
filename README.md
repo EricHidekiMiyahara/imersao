@@ -9,10 +9,11 @@
 
 <p align="center">
  <a href="#about">Sobre</a> • 
- <a href="#funcionamento">Como ela funciona?<a> •
- <a href="#started">Instrução de uso</a> • 
+ <a href="#operation">Como ela funciona?<a> •
+ <a href="#started">Instrução de uso</a> •
+ <a href="#technologies">Tecnologias utilizadas</a> •
  <a href="#contribute">Contribuição</a> •
- <a href="#links">Links Úteis</a>
+ <a href="#links">Links úteis</a> 
 </p>
 
 <p align="center">
@@ -26,7 +27,7 @@ Este site foi criado com o objetivo de fornecer informações resumidas sobre os
 
 Basta realizar a pesquisa pelo nome do mapa que procura. A busca pode ser realizada por palavras-chave, mas é sempre recomendado digitar o nome corretamente para obter os melhores resultados. Caso não encontre o mapa em minha base de dados, me envie um e-mail para que possamos ajustar a página e incluir esses dados.
 
-<h2 id="funcionamento">Como ela funciona?</h2>
+<h2 id="operation">Como ela funciona?</h2>
 
 - Digite e pesquise: Você digita o nome de um mapa competitivo que você quer encontrar na caixinha de pesquisa.
 - Mágica acontece: A aplicação vasculha um banco de dados (que está no arquivo dados.js) e procura por tudo que tenha a ver com o que você digitou.
@@ -44,7 +45,7 @@ Aqui está a lista de todos os pré-requisitos necessários para rodar seu proje
 - Instalação da imagem background.jpeg da pasta img, localizado no meu [repositório](https://github.com/EricHidekiMiyahara/mapasCS2/tree/main/img).
 - Instalação dos ícones globo.png, instagram.png e linkedin.png, localizados no meu [repositório](https://github.com/EricHidekiMiyahara/mapasCS2/tree/main/icon).
 
-<h3>Instrução de uso</h3>
+<h3>Tutorial</h3>
 
 1. Crie o arquivo index.html.
 2. Crie o arquivo styles.css.
@@ -55,19 +56,27 @@ Aqui está a lista de todos os pré-requisitos necessários para rodar seu proje
 7. Crie a pasta icon.
 8. Dentro da pasta icon, anexe os ícones globo.png, instagram.png e linkedin.png.
 
+<h3 id="technologies">Tecnologias utilizadas</h3>
+
+- **HTML5:** Estrutura da página. 🌐
+- **CSS3:** Estilização e animações. 🎨
+- **JavaScript:** Funcionalidades interativas. 💻
+- **EmojiPedia:** Para os ícones. 👍
+- **Gemini:** Prompts de comandos. 💻
+
 <h2 id="contribute">📫 Contribuição</h2>
 
 Agradeço a contribuição para o projeto. Se você está corrigindo um bug, adicionando uma funcionalidade, ou melhorando a documentação, sua contribuição é valiosa. Veja como você pode contribuir:
 
-1. ** Criar uma nova funcionalidade**
+1. **Criar uma nova funcionalidade**
 
 A adição das respectivas imagens com os cards do mapa é um boa ideia para tornar a busca mais elegante e informativa visualmente.
 
-2. ** Siga os padrões de codificação**
+2. **Siga os padrões de codificação**
 
 Consistência é fundamental! Aderir aos padrões de codificação e padrões estabelecidos no projeto. Isso garante a legibilidade e a manutenção do código.
 
-3. ** Espere pela revisão **
+3. **Espere pela revisão**
 
 Irei rever a sua solicitação de pull. Participe da discussão e faça as alterações solicitadas. Suas contribuições serão mescladas no projeto uma vez aprovada!
 
@@ -75,3 +84,4 @@ Irei rever a sua solicitação de pull. Participe da discussão e faça as alter
 
 - [Layout](https://github.com/guilhermeonrails/olimpiadas-github)
 - [Layout como referência](https://github.com/jeferson-paz/projeto_final_alura_gemini)
+- [Projeto]()
