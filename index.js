@@ -12,7 +12,7 @@ function voltarHome() {
             ajustar a página e incluir esses dados.</p>
         </div>
     `;
-    
+
     // Adiciona a classe "sobre-ativo" à seção "Sobre"
     document.getElementById("sobre").classList.add("sobre-ativo");
 }
@@ -44,7 +44,7 @@ function pesquisar() {
         titulo = dado.titulo.toLowerCase()
         descricao = dado.descricao.toLowerCase()
         tags = dado.tags.toLowerCase()
-        
+
         // Verifica se o termo de pesquisa está presente em algum dos campos do mapa
         if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
             // Adiciona o mapa aos resultados da pesquisa
