@@ -23,7 +23,7 @@
 
 <h2 id="about">📌 Sobre</h2>
 
-Este site foi criado com o objetivo de fornecer informações resumidas sobre os mapas do CS2. Aqui, você pode pesquisar seus mapas favoritos e conhecer mais sobre eles!
+Este site foi criado com o objetivo de fornecer informações resumidas sobre os mapas do Counter-Strike (CS2). Aqui, você pode pesquisar seus mapas favoritos e conhecer mais sobre eles!
 
 Basta realizar a pesquisa pelo nome do mapa que procura. A busca pode ser realizada por palavras-chave, mas é sempre recomendado digitar o nome corretamente para obter os melhores resultados. Caso não encontre o mapa em minha base de dados, me envie um e-mail para que possamos ajustar a página e incluir esses dados.
 
