@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-   
+   <img src="./img/paginaPrincipal.png" alt="Página principal" width="400px">
 
 </p>
 
